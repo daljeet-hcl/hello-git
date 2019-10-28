@@ -10,7 +10,7 @@ trigger:
     - qa		
     - releases/*
     - feature/*
-    exclude:
+  exclude:
     - releases/old*
     - feature/*-working
 
